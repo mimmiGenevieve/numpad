@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    padding: 15px;
+    background-color: #EFEFEF;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#container { max-width: 414px; margin: 0 auto; }
+
+p {
+    text-decoration: underline solid #707070;
+    color: #707070;
+    font-size: 20px;
+    margin: 100px 0 80px 0;
+}
+
+#inputPsw {
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+    width: 375px;
+    margin: 0 auto;
+    background-color: #FFFFFF;;
+}
+
+.numPad { width: 100%; margin: 31px 0 16px 0; }
+.numberBox {
+    width: 90px;
+    margin: 2.5px;
+    padding: 2px;
+    display: inline-block;
+    background-color: #FFFFFF;
+    font-size: 25px;
+}
+.numberBox:focus{ background-color: rgba(0,150,129,.3); }
+.empty {
+    background-color: #C2C2C2;
+    opacity: .15 !important;
+    height: 43px;
+    cursor: default;
+}
+
+#saveBtn, #cancelBtn {
+    display: inline-block;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+#saveBtn { width: 255px; background-color: #009681; }
+#cancelBtn {
+    width: 106px;
+    background-color: #F57E7E;
+    margin-left: 14px;
+}
